@@ -2,7 +2,7 @@
 define('HOST','localhost');
 define('DB','va');
 define('USER','root');
-define('PASS','Andr0meDA');
+define('PASS','');
 
 $conexao = 'mysql:host='.HOST.';dbname='.DB;
 
