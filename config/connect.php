@@ -9,7 +9,7 @@ $LogSessionNivel   = $_SESSION['log_Nivel'];
 ?>
 <?php 
 $ventana = ('va');
-$conectar = mysqli_connect('localhost','root','Andr0meDA');
+$conectar = mysqli_connect('localhost','root','');
 $db = mysqli_select_db($conectar, $ventana);
 //mysqli_set_charset($conexao,'utf8');
 
